@@ -1,14 +1,17 @@
 window.onload = function () {
 
     document.getElementById('degree_button').onclick = function () {
-        console.log("Clicked degree_button")
         fetch('https://brookeclaroni.github.io/CS601_HW5_Claroni/data.json', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin':'*',
             },
         })
-            .then(response => response.json())
+            .then(response => {
+                console.log('response.status: ', response.status);
+                console.log(response);
+             })
             .then(data => {
                 console.log('Success:', data);
                 var degreeData = document.getElementById("degree_data");
