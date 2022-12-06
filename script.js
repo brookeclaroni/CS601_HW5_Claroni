@@ -2,7 +2,7 @@ window.onload = function () {
 
     document.getElementById('degree_button').onclick = function () {
         console.log("Clicked degree_button")
-        fetch('https://6378172d5c477765122c0fb4.mockapi.io/degrees', {
+        fetch('data.json', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
