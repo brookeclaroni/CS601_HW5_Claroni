@@ -1,1 +1,16 @@
-{"degrees": [{"school": "The George Washington University","major": "Computer Science","type": "BS","year_conferred": 2021},{"school": "Boston University","major": "Software Development","type": "MS","year_conferred": 2023}]}
+{
+    "degrees": [
+        {
+            "school": "The George Washington University",
+            "major": "Computer Science",
+            "type": "BS",
+            "year_conferred": 2021
+        },
+        {
+            "school": "Boston University",
+            "major": "Software Development",
+            "type": "MS",
+            "year_conferred": 2023
+        }
+    ]
+}
