@@ -8,10 +8,7 @@ window.onload = function () {
                 'Access-Control-Allow-Origin':'*',
             },
         })
-            .then(response => {
-                console.log('response.status: ', response.status);
-                console.log(response);
-             })
+            .then(response => response.json())
             .then(data => {
                 console.log('Success:', data);
                 var degreeData = document.getElementById("degree_data");
