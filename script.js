@@ -2,7 +2,7 @@ window.onload = function () {
 
     document.getElementById('degree_button').onclick = function () {
         console.log("Clicked degree_button")
-        fetch('data.json', {
+        fetch('https://brookeclaroni.github.io/CS601_HW5_Claroni/data.json', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
