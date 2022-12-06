@@ -1,0 +1,35 @@
+body {
+    background-color: #232329;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+button {
+    background-color: lightpink;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: medium;
+    font-family: Verdana;
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+h1 {
+    color: lightpink;
+}
+
+.degree {
+    border:8px #414148 ;
+    border-style: inset;
+    margin: auto;
+    border-radius: 24px;
+    background-color: #414148;
+    width: 400px;
+}
+
+#hide_button {
+    display: none;
+}
